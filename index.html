@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A World of Progress: Infant Mortality Decline</title>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section id="story">
+            <div class="story-intro">
+                <h1>A World of Progress</h1>
+                <p class="subtitle">The remarkable global decline in infant mortality from 1990 to 2022</p>
+                <p class="subtitle"><i>A visualization by Ekam Brar for DS 6390</i></p>
+                <p>Over the past three decades, the world has witnessed a remarkable transformation in infant survival rates. This visualization explores how countries across the globe have made significant strides in reducing infant mortality, saving millions of young lives.</p>
+                <p>Scroll down to explore this journey of progress.</p>
+            </div>
+
+            <div class="story-section" data-year="1990" data-center="0,20" data-zoom="1.5" data-country="global">
+                <h2>1990: A World of Challenges</h2>
+                <p>In 1990, global infant mortality stood at alarming levels. Across the world, approximately 65 out of every 1,000 infants born alive did not survive their first year.</p>
+                <p>Sub-Saharan Africa and South Asia faced particularly severe challenges, with many countries experiencing infant mortality rates above 100 per 1,000 live births.</p>
+                <p>Healthcare inequality, limited access to vaccines, and poor maternal care were major contributors to this crisis.</p>
+            </div>
+
+            <div class="story-section" data-year="2000" data-center="15,0" data-zoom="2.5" data-country="sub-saharan-africa">
+                <h2>The Challenge of Sub-Saharan Africa</h2>
+                <p>In 2000, while some progress had been made globally, Sub-Saharan Africa continued to face significant challenges. The AIDS epidemic, political instability, and limited healthcare infrastructure posed severe obstacles to improving infant survival rates.</p>
+                <p>Despite these challenges, innovative approaches to healthcare delivery were beginning to take shape across the continent.</p>
+            </div>
+
+            <div class="story-section" data-year="2005" data-center="78,20" data-zoom="3.5" data-country="IND">
+                <h2>India's Journey</h2>
+                <p>India, home to one of the world's largest child populations, made significant progress in improving infant survival. Between 1990 and 2022, India reduced its infant mortality rate by about 70%.</p>
+                <p>National initiatives focused on maternal health, childhood immunization, and community health workers played a crucial role in this transformation.</p>
+            </div>
+
+            <div class="story-section" data-year="2010" data-center="105,35" data-zoom="3.2" data-country="CHN">
+                <h2>China's Rapid Transformation</h2>
+                <p>China demonstrated remarkable progress, reducing infant mortality by over 80% since 1990. By 2010, China's healthcare system reforms had created widespread access to maternal and infant healthcare services.</p>
+                <p>This transformation shows how policy commitment and healthcare investment can lead to dramatic improvements in child survival.</p>
+            </div>
+
+            <div class="story-section" data-year="2015" data-center="30,0" data-zoom="3.8" data-country="RWA">
+                <h2>Rwanda: An Excellent Case Study</h2>
+                <p>Rwanda presents one of the most inspiring success stories. Despite the devastation of the 1994 genocide, Rwanda rebuilt its healthcare system and achieved some of the most dramatic improvements in infant survival globally.</p>
+                <p>Between 1990 and 2022, Rwanda reduced its infant mortality rate by almost 70%, demonstrating how determination and focused public health initiatives can overcome even the most challenging circumstances.</p>
+            </div>
+
+            <div class="story-section" data-year="2020" data-center="-65,0" data-zoom="2.5" data-country="latinAmerica">
+                <h2>Latin America's Progress</h2>
+                <p>Countries across Latin America made substantial progress in reducing infant mortality. Brazil, for example, reduced its infant mortality rate by over 75% between 1990 and 2020.</p>
+                <p>Successful vaccination campaigns, improved sanitation, and wider access to prenatal care contributed significantly to these improvements.</p>
+            </div>
+
+            <div class="story-section" data-year="2022" data-center="0,20" data-zoom="1.5" data-country="global">
+                <h2>2022: A Changed World</h2>
+                <p>By 2022, the global infant mortality rate had fallen to approximately 27 per 1,000 live births – a reduction of nearly 60% since 1990.</p>
+                <p>This progress translates to millions of lives saved and represents one of humanity's greatest achievements in recent decades.</p>
+                <p>However, significant disparities remain between regions and within countries, reminding us that our work is far from complete.</p>
+            </div>
+
+            <div class="story-conclusion">
+                <h2>The Path Forward</h2>
+                <p>While celebrating remarkable global progress in reducing infant mortality, we must acknowledge the challenges that remain. In 2022, approximately 3.5 million infants still died in their first year of life – nearly all from preventable or treatable causes.</p>
+                <p>The data shows that progress is possible in even the most challenging contexts. Looking forward, continued investment in maternal and child health, strengthened healthcare systems, and addressing inequality will be essential to ensure every child has the opportunity to thrive.</p>
+                <p>Explore the map to learn more about specific countries and their journey in improving infant survival.</p>
+            </div>
+        </section>
+
+        <section id="visualization">
+            <div id="map"></div>
+            <div class="map-overlay"></div>
+            <div id="year-display">Year: <span id="current-year">1990</span></div>
+            <input type="range" id="year-slider" min="1990" max="2022" value="1990" step="1">
+        </section>
+    </main>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

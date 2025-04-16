@@ -1,0 +1,16 @@
+{
+  "name": "infant-mortality-storytelling",
+  "version": "1.0.0",
+  "description": "Interactive storytelling visualization of global infant mortality rates",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "dependencies": {
+    "d3": "^7.8.5",
+    "mapbox-gl": "^2.15.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

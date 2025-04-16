@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle stroke="#a1887f" stroke-width="2" cx="100" cy="100" r="98"></circle>
+        <path d="M100,2 C154.7,2 199,46.3 199,101 C199,155.7 154.7,200 100,200 C45.3,200 1,155.7 1,101 C1,46.3 45.3,2 100,2 Z" stroke="#a1887f" stroke-width="2"></path>
+        <path d="M100,2 C154.7,2 199,46.3 199,101 C199,155.7 154.7,200 100,200 C45.3,200 1,155.7 1,101 C1,46.3 45.3,2 100,2 Z" stroke="#a1887f" stroke-width="0.5"></path>
+        <path d="M2,100 L198,100" stroke="#a1887f" stroke-width="1"></path>
+        <path d="M100,2 L100,198" stroke="#a1887f" stroke-width="1"></path>
+        <path d="M29,29 L171,171" stroke="#a1887f" stroke-width="0.5" stroke-dasharray="5,5"></path>
+        <path d="M29,171 L171,29" stroke="#a1887f" stroke-width="0.5" stroke-dasharray="5,5"></path>
+        <circle fill="#a1887f" cx="100" cy="100" r="5"></circle>
+        <path d="M30,70 C40,65 45,68 60,75 C75,82 85,80 95,70 C105,60 120,65 130,80 C140,95 150,100 170,90" stroke="#a1887f" stroke-width="1.5"></path>
+        <path d="M25,120 C35,110 50,115 65,130 C80,145 90,150 105,140 C120,130 140,125 165,140" stroke="#a1887f" stroke-width="1.5"></path>
+    </g>
+</svg>
